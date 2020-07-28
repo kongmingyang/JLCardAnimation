@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5285D3624D0261400D06F3C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5285D3524D0261400D06F3C /* AppDelegate.m */; };
+		F5285D3924D0261400D06F3C /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5285D3824D0261400D06F3C /* SceneDelegate.m */; };
+		F5285D3C24D0261400D06F3C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5285D3B24D0261400D06F3C /* ViewController.m */; };
+		F5285D3F24D0261400D06F3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5285D3D24D0261400D06F3C /* Main.storyboard */; };
+		F5285D4124D0261700D06F3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5285D4024D0261700D06F3C /* Assets.xcassets */; };
+		F5285D4424D0261700D06F3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5285D4224D0261700D06F3C /* LaunchScreen.storyboard */; };
+		F5285D4724D0261700D06F3C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5285D4624D0261700D06F3C /* main.m */; };
+		F5285D5124D0261700D06F3C /* KMCardAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5285D5024D0261700D06F3C /* KMCardAnimationTests.m */; };
+		F5285D5C24D0261700D06F3C /* KMCardAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5285D5B24D0261700D06F3C /* KMCardAnimationUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5285D4D24D0261700D06F3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5285D2924D0261400D06F3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5285D3024D0261400D06F3C;
+			remoteInfo = KMCardAnimation;
+		};
+		F5285D5824D0261700D06F3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5285D2924D0261400D06F3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5285D3024D0261400D06F3C;
+			remoteInfo = KMCardAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F5285D3124D0261400D06F3C /* KMCardAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KMCardAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5285D3424D0261400D06F3C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F5285D3524D0261400D06F3C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F5285D3724D0261400D06F3C /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		F5285D3824D0261400D06F3C /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		F5285D3A24D0261400D06F3C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F5285D3B24D0261400D06F3C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F5285D3E24D0261400D06F3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F5285D4024D0261700D06F3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5285D4324D0261700D06F3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F5285D4524D0261700D06F3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5285D4624D0261700D06F3C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F5285D4C24D0261700D06F3C /* KMCardAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KMCardAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5285D5024D0261700D06F3C /* KMCardAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KMCardAnimationTests.m; sourceTree = "<group>"; };
+		F5285D5224D0261700D06F3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5285D5724D0261700D06F3C /* KMCardAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KMCardAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5285D5B24D0261700D06F3C /* KMCardAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KMCardAnimationUITests.m; sourceTree = "<group>"; };
+		F5285D5D24D0261700D06F3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5285D2E24D0261400D06F3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5285D4924D0261700D06F3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5285D5424D0261700D06F3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5285D2824D0261400D06F3C = {
+			isa = PBXGroup;
+			children = (
+				F5285D3324D0261400D06F3C /* KMCardAnimation */,
+				F5285D4F24D0261700D06F3C /* KMCardAnimationTests */,
+				F5285D5A24D0261700D06F3C /* KMCardAnimationUITests */,
+				F5285D3224D0261400D06F3C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5285D3224D0261400D06F3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5285D3124D0261400D06F3C /* KMCardAnimation.app */,
+				F5285D4C24D0261700D06F3C /* KMCardAnimationTests.xctest */,
+				F5285D5724D0261700D06F3C /* KMCardAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5285D3324D0261400D06F3C /* KMCardAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				F5285D3424D0261400D06F3C /* AppDelegate.h */,
+				F5285D3524D0261400D06F3C /* AppDelegate.m */,
+				F5285D3724D0261400D06F3C /* SceneDelegate.h */,
+				F5285D3824D0261400D06F3C /* SceneDelegate.m */,
+				F5285D3A24D0261400D06F3C /* ViewController.h */,
+				F5285D3B24D0261400D06F3C /* ViewController.m */,
+				F5285D3D24D0261400D06F3C /* Main.storyboard */,
+				F5285D4024D0261700D06F3C /* Assets.xcassets */,
+				F5285D4224D0261700D06F3C /* LaunchScreen.storyboard */,
+				F5285D4524D0261700D06F3C /* Info.plist */,
+				F5285D4624D0261700D06F3C /* main.m */,
+			);
+			path = KMCardAnimation;
+			sourceTree = "<group>";
+		};
+		F5285D4F24D0261700D06F3C /* KMCardAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				F5285D5024D0261700D06F3C /* KMCardAnimationTests.m */,
+				F5285D5224D0261700D06F3C /* Info.plist */,
+			);
+			path = KMCardAnimationTests;
+			sourceTree = "<group>";
+		};
+		F5285D5A24D0261700D06F3C /* KMCardAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F5285D5B24D0261700D06F3C /* KMCardAnimationUITests.m */,
+				F5285D5D24D0261700D06F3C /* Info.plist */,
+			);
+			path = KMCardAnimationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5285D3024D0261400D06F3C /* KMCardAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5285D6024D0261700D06F3C /* Build configuration list for PBXNativeTarget "KMCardAnimation" */;
+			buildPhases = (
+				F5285D2D24D0261400D06F3C /* Sources */,
+				F5285D2E24D0261400D06F3C /* Frameworks */,
+				F5285D2F24D0261400D06F3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KMCardAnimation;
+			productName = KMCardAnimation;
+			productReference = F5285D3124D0261400D06F3C /* KMCardAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5285D4B24D0261700D06F3C /* KMCardAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5285D6324D0261700D06F3C /* Build configuration list for PBXNativeTarget "KMCardAnimationTests" */;
+			buildPhases = (
+				F5285D4824D0261700D06F3C /* Sources */,
+				F5285D4924D0261700D06F3C /* Frameworks */,
+				F5285D4A24D0261700D06F3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5285D4E24D0261700D06F3C /* PBXTargetDependency */,
+			);
+			name = KMCardAnimationTests;
+			productName = KMCardAnimationTests;
+			productReference = F5285D4C24D0261700D06F3C /* KMCardAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F5285D5624D0261700D06F3C /* KMCardAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5285D6624D0261700D06F3C /* Build configuration list for PBXNativeTarget "KMCardAnimationUITests" */;
+			buildPhases = (
+				F5285D5324D0261700D06F3C /* Sources */,
+				F5285D5424D0261700D06F3C /* Frameworks */,
+				F5285D5524D0261700D06F3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5285D5924D0261700D06F3C /* PBXTargetDependency */,
+			);
+			name = KMCardAnimationUITests;
+			productName = KMCardAnimationUITests;
+			productReference = F5285D5724D0261700D06F3C /* KMCardAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5285D2924D0261400D06F3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "明孔";
+				TargetAttributes = {
+					F5285D3024D0261400D06F3C = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					F5285D4B24D0261700D06F3C = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = F5285D3024D0261400D06F3C;
+					};
+					F5285D5624D0261700D06F3C = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = F5285D3024D0261400D06F3C;
+					};
+				};
+			};
+			buildConfigurationList = F5285D2C24D0261400D06F3C /* Build configuration list for PBXProject "KMCardAnimation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5285D2824D0261400D06F3C;
+			productRefGroup = F5285D3224D0261400D06F3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5285D3024D0261400D06F3C /* KMCardAnimation */,
+				F5285D4B24D0261700D06F3C /* KMCardAnimationTests */,
+				F5285D5624D0261700D06F3C /* KMCardAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5285D2F24D0261400D06F3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5285D4424D0261700D06F3C /* LaunchScreen.storyboard in Resources */,
+				F5285D4124D0261700D06F3C /* Assets.xcassets in Resources */,
+				F5285D3F24D0261400D06F3C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5285D4A24D0261700D06F3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5285D5524D0261700D06F3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5285D2D24D0261400D06F3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5285D3C24D0261400D06F3C /* ViewController.m in Sources */,
+				F5285D3624D0261400D06F3C /* AppDelegate.m in Sources */,
+				F5285D4724D0261700D06F3C /* main.m in Sources */,
+				F5285D3924D0261400D06F3C /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5285D4824D0261700D06F3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5285D5124D0261700D06F3C /* KMCardAnimationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5285D5324D0261700D06F3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5285D5C24D0261700D06F3C /* KMCardAnimationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5285D4E24D0261700D06F3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5285D3024D0261400D06F3C /* KMCardAnimation */;
+			targetProxy = F5285D4D24D0261700D06F3C /* PBXContainerItemProxy */;
+		};
+		F5285D5924D0261700D06F3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5285D3024D0261400D06F3C /* KMCardAnimation */;
+			targetProxy = F5285D5824D0261700D06F3C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F5285D3D24D0261400D06F3C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5285D3E24D0261400D06F3C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F5285D4224D0261700D06F3C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5285D4324D0261700D06F3C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5285D5E24D0261700D06F3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F5285D5F24D0261700D06F3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5285D6124D0261700D06F3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KMCardAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Hope.KMCardAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F5285D6224D0261700D06F3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KMCardAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Hope.KMCardAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F5285D6424D0261700D06F3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KMCardAnimationTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Hope.KMCardAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KMCardAnimation.app/KMCardAnimation";
+			};
+			name = Debug;
+		};
+		F5285D6524D0261700D06F3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KMCardAnimationTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Hope.KMCardAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KMCardAnimation.app/KMCardAnimation";
+			};
+			name = Release;
+		};
+		F5285D6724D0261700D06F3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KMCardAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Hope.KMCardAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KMCardAnimation;
+			};
+			name = Debug;
+		};
+		F5285D6824D0261700D06F3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KMCardAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Hope.KMCardAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KMCardAnimation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5285D2C24D0261400D06F3C /* Build configuration list for PBXProject "KMCardAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5285D5E24D0261700D06F3C /* Debug */,
+				F5285D5F24D0261700D06F3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5285D6024D0261700D06F3C /* Build configuration list for PBXNativeTarget "KMCardAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5285D6124D0261700D06F3C /* Debug */,
+				F5285D6224D0261700D06F3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5285D6324D0261700D06F3C /* Build configuration list for PBXNativeTarget "KMCardAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5285D6424D0261700D06F3C /* Debug */,
+				F5285D6524D0261700D06F3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5285D6624D0261700D06F3C /* Build configuration list for PBXNativeTarget "KMCardAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5285D6724D0261700D06F3C /* Debug */,
+				F5285D6824D0261700D06F3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5285D2924D0261400D06F3C /* Project object */;
+}
